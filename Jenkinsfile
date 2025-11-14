@@ -23,7 +23,7 @@ pipeline {
         ----------------------------------------- */
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Vivek-645/employeeprofilemanagement.git'
+                git branch: 'main', url: 'https://github.com/Vivek-645/internal_exam'
             }
         }
 
